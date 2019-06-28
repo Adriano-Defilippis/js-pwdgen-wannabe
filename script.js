@@ -62,19 +62,19 @@ function myFunction(){
 
   if (elNome=="") {
     alert('Non hai inserito completato i campi..!');
-    document.form.nome.focus();
+    document.getElementById('nome').focus();
     return false;
   }
 
   else if (elCognome=="") {
     alert('Non hai inserito il tuo cognome.!');
-    document.form.cognome.focus();
+    document.getElementById('cognome').focus();
     return false;
   }
 
   else if (elColore=="") {
     alert('Non hai inserito il tuo colore..!');
-    document.form.colore.focus();
+    document.getElementById('colore').focus();
     return false;
   }else {
     document.getElementById('password').innerHTML= elPasw;
