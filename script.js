@@ -50,7 +50,7 @@
 
 
 function myFunction(){
-  var elNome, elCognome, elColore, elPasw;
+  var elNome, elCognome, elColore, elPasw, password;
 
   elNome = document.dati.nome.value;
 
@@ -77,7 +77,11 @@ function myFunction(){
     document.getElementById('colore').focus();
     return false;
   }else {
-    document.getElementById('password').innerHTML= elPasw;
+
+    password = document.getElementById('password');
+    password.innerHTML= elPasw;
+    password.focus();
+
   }
 
 
