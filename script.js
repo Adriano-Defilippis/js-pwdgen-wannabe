@@ -11,6 +11,7 @@
 //
 // elPasw.innerHTML = 'elNome + elCognome + elColore + 19';
 
+
 function myFunction(){
   var elNome, elCognome, elColore, elPasw;
 
@@ -19,12 +20,6 @@ function myFunction(){
   elCognome = document.getElementById('cognome').value;
 
   elColore = document.getElementById('colore').value;
-
-
-
-  // elPasw = elNome + elCognome + elColore + '19';
-  //
-  // document.getElementById('password').innerHTML = elPasw;
 
   elPasw = elNome + elCognome + elColore + '19';
 
