@@ -84,6 +84,8 @@ function myFunction(){
 
   }
 
-
-
 }
+
+var button = document.getElementById('submit');
+
+button.onclick = myFunction;
